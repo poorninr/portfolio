@@ -111,7 +111,7 @@ body{
     }
     #nav-bar-item-container{
         display: flex;
-        
+        flex-direction: row;
     }
     #nav-bar-items{
         display: flex;
