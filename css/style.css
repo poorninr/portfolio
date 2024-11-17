@@ -206,7 +206,7 @@ body{
         color: white;
         position: absolute;
         top: 38px;
-        right: 35px;
+        right: 50px;
         column-gap: 15px;
     } 
     .list-items{
@@ -226,7 +226,7 @@ body{
     .profile-img-container{
         width: 45%;
         position: absolute;
-        right: 65px;
+        right: 60px;
         top: 150px;
         
     }
@@ -334,10 +334,76 @@ body{
         color: white;
         position: absolute;
         top: 38px;
-        right: 35px;
+        right: 50px;
         column-gap: 15px;
     } 
     .list-items{
         font-size: 1rem;
+    }
+    .body-main-container{
+        min-width: 100%;
+        
+    }
+    .body-container{
+        width: 45%;
+        position: absolute;
+        left:300px;
+        top:280px;
+        
+    } 
+    .profile-img-container{
+        width: 45%;
+        position: absolute;
+        right: 150px;
+        top: 140px;
+        
+    }
+     #profile-img{
+        min-width: 340px;
+        min-height: 470px;
+        border-radius: 50%;
+    } 
+    .body-container{
+        text-align: justify;
+    }
+    #body-greeting{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    #body-name-container{
+        font-size: 3rem;
+
+    }
+    #body-name-span{
+        font-weight: 800px;
+    }
+    #body-job{
+        font-size: 2rem;
+    }
+    #body-button-container{
+        margin-top: 27px;
+    }
+    #hire-me-button{
+        padding: 15px 29px;
+        border-radius: 24px;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+    #hire-me-button:hover{
+        background-color: white;
+        border: 1.5px solid #343434;
+        color: #343434;
+        transition: 0.8s;
+    }
+    #my-works-button{
+        padding: 15px 26px;
+        border-radius: 24px;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+    #my-works-button:hover{
+        background-color: #343434;
+        color: white;
+        transition: 0.8s;
     }
 }
