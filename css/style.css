@@ -10,13 +10,13 @@ body{
 .nav-bar-container{
     background-color:#343434;
     min-width:100%;
-    height:100px;
+    height:90px;
 }
 
 #nav-bar{
     display:flex;
     min-width:100%;
-    height:100px;
+    height:90px;
     flex-direction:row;
     align-items:center;
     justify-content:space-between;
@@ -53,7 +53,6 @@ body{
     align-items:center;
     position:fixed ;
     left: -100%;
-    
     transition: 0.8s;
 }
 #menu-bar-close-icon{
@@ -73,7 +72,7 @@ body{
     justify-content:center;
     align-items:center;
 }
-.list-items{
+.list-itemss{
     list-style:none;
     font-size:1.2rem;
     font-weight:bold;
@@ -81,9 +80,13 @@ body{
     cursor:pointer ;
 }
 
-.list-items:hover{
+.list-itemss:hover{
     color:#FF5733 ;
     transition:0.8s;
+}
+.list-itemss a{
+    color: white;
+    text-decoration: none;
 }
 #nav-bar-item-container{
     display: none;
@@ -97,12 +100,12 @@ body{
     height: 300px;
     border: none;
     border-radius: 100%;
-    margin-top: 70px;
+    margin-top: 60px;
     
 }
 .body-container{
     text-align: center;
-    margin: 45px 0px 50px 0px;
+    margin: 35px 0px 45px 0px;
 }
 #body-greeting{
     text-transform:uppercase;
@@ -117,6 +120,11 @@ body{
 #body-job{
     font-size: 1.3rem;
     font-weight: 500;
+}
+#body-welcome{
+    font-size: 0.9rem;
+    margin-top: 7px;
+    letter-spacing: 2px;
 }
 #body-button-container{
     margin-top: 20px;
@@ -158,9 +166,69 @@ body{
 
 
 
+/* about page style for mobile*/
+.about-page-container{
+    background-color: #343434;
+    color: white;
+    padding: 25px;
+}
+#body-heading-container{
+    margin: 20px 0px 25px 0px;
+}
+#body-heading{
+    font-size: 1.7rem;
+    text-align: center;
+}
+#body-heading-span{
+    color: #FF5733;
+}
+#about-page-img-container{
+    display: none;
+}
+#about-para-container{
+    margin-bottom: 25px;
+}
+#about-para{
+    text-align:start;
+    line-height: 1.6rem;
+    word-spacing: 0.3rem;
+    color: lightgrey;
+}
+#about-para-btn-container{
+    margin-bottom: 25px;
+}
+#about-para-btn{
+    background-color: #343434;
+    border: 1.5px #FF5733 solid;
+    border-radius: 23px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform:uppercase;
+    padding: 10px 17px;
+    cursor: pointer;
+}
+#about-para-btn a{
+    color: #FF5733;
+    text-decoration: none;
+}
+#about-para-btn:hover{
+    background-color: white;
+    transition: 0.8s;
+}
+#body-table{
+    width: 100%;
+    border-spacing: 5px 25px;
+}
+.table-keys{
+    font-weight: 600;
+}
+.table-values{
+    color: lightgrey;
+}
+
 
 /* tablet screen 768px- 1024px */
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:850px) and (max-width:1024px){
     #menu-bar-icon{
         font-size: 0.2rem;
         display: none;
@@ -210,24 +278,33 @@ body{
         column-gap: 15px;
     } 
     .list-items{
-        font-size: 1rem;
+        list-style:none;
+        font-size:1rem;
+        font-weight:bold;
+        margin-bottom:50px;
+        cursor:pointer ;
     }
-    .body-main-container{
+    
+    .list-items:hover{
+        color:#FF5733 ;
+        transition:0.8s;
+    }
+    #body-main-container{
         min-width: 100%;
         
     }
     .body-container{
         width: 45%;
-        position: absolute;
-        left:70px;
-        top:300px;
+        position: relative;
+        left:175px;
+        top:-340px;
         
     } 
     .profile-img-container{
         width: 45%;
-        position: absolute;
-        right: 60px;
-        top: 150px;
+        position: relative;
+        left: 450px;
+        top: 35px;
         
     }
      #profile-img{
@@ -276,6 +353,12 @@ body{
         background-color: #343434;
         color: white;
         transition: 0.8s;
+    }
+
+    /* about page style for tablet*/
+    .about-page-container{
+        display: none;
+
     }
 }
 
@@ -338,9 +421,18 @@ body{
         column-gap: 15px;
     } 
     .list-items{
-        font-size: 1rem;
+        list-style:none;
+        font-size:1rem;
+        font-weight:bold;
+        margin-bottom:50px;
+        cursor:pointer ;
     }
-    .body-main-container{
+    
+    .list-items:hover{
+        color:#FF5733 ;
+        transition:0.8s;
+    }
+    #body-main-container{
         min-width: 100%;
         
     }
@@ -406,4 +498,8 @@ body{
         color: white;
         transition: 0.8s;
     }
+
+    /* about page style for Desktop*/
+
+
 }

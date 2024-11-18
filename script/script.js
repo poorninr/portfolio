@@ -11,3 +11,13 @@ menuBarClose.addEventListener("click",reset)
 function reset(){
     menuBarContainer.style.left="-100%"
 }
+
+var listItems = document.querySelectorAll('.list-itemss');
+
+for(i=0; i<listItems.length;i++)
+    {
+    listItems[i].addEventListener("click",()=>{
+        menuBarContainer.style.display="none"
+    })
+}
+
