@@ -420,7 +420,6 @@ body{
     #about-para2{
         display: block;
         text-align:start;
-        font-size: 1.1rem;
         line-height:2.1rem;
         word-spacing: 0.6rem;
         color: lightgrey;
@@ -431,11 +430,9 @@ body{
     }
     .table-keys{
         font-weight: 600;
-        font-size: 1.1rem;
     }
     .table-values{
         color: lightgrey;
-        font-size: 1.1rem;
     }
 }
 
@@ -623,7 +620,6 @@ body{
     #about-para2{
         display: block;
         text-align:start;
-        font-size: 1.1rem;
         line-height:2.1rem;
         word-spacing: 0.6rem;
         color: lightgrey;
@@ -634,11 +630,9 @@ body{
     }
     .table-keys{
         font-weight: 600;
-        font-size: 1.1rem;
     }
     .table-values{
         color: lightgrey;
-        font-size: 1.1rem;
     }
 
 }
@@ -844,7 +838,6 @@ body{
     #about-para2{
         display: block;
         text-align:start;
-        font-size: 1.1rem;
         line-height:2.1rem;
         word-spacing: 0.6rem;
         color: lightgrey;
@@ -855,11 +848,9 @@ body{
     }
     .table-keys{
         font-weight: 600;
-        font-size: 1.1rem;
     }
     .table-values{
         color: lightgrey;
-        font-size: 1.1rem;
     }
 
 }
