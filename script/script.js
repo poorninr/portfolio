@@ -17,7 +17,7 @@ var listItems = document.querySelectorAll('.list-itemss');
 for(i=0; i<listItems.length;i++)
     {
     listItems[i].addEventListener("click",()=>{
-        menuBarContainer.style.display="none"
+        menuBarContainer.style.left="-100%"
     })
 }
 

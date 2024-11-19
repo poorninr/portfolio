@@ -11,6 +11,8 @@ body{
     background-color:#343434;
     min-width:100%;
     height:90px;
+    position: fixed;
+    top: 0px;
 }
 
 #nav-bar{
@@ -54,8 +56,9 @@ body{
     justify-content:center;
     align-items:center;
     position:fixed ;
+    bottom: 0px;
     left: -100%;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 #menu-bar-close-icon{
     position: absolute;
@@ -92,6 +95,10 @@ body{
 }
 #nav-bar-item-container{
     display: none;
+}
+#body-main-container{
+    margin-top: 90px;
+    margin-bottom: 70px;
 }
 .profile-img-container{
     display: flex;
@@ -231,7 +238,7 @@ body{
 }
 #body-table{
     width: 100%;
-    border-spacing: 5px 25px;
+    border-spacing: 7px 25px;
 }
 .table-keys{
     font-weight: 600;
@@ -713,7 +720,8 @@ body{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-bottom: 80px;
+        margin-top: 110px;
+        margin-bottom: 100px;
         
     }
     .profile-img-container{
