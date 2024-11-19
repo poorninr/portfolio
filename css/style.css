@@ -424,11 +424,11 @@ body{
     }
     .table-keys{
         font-weight: 600;
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
     .table-values{
         color: lightgrey;
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -616,7 +616,7 @@ body{
     #about-para2{
         display: block;
         text-align:start;
-        font-size: 1.27rem;
+        font-size: 1.2rem;
         line-height:2.1rem;
         word-spacing: 0.6rem;
         color: lightgrey;
@@ -627,11 +627,11 @@ body{
     }
     .table-keys{
         font-weight: 600;
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
     .table-values{
         color: lightgrey;
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
 
 }
@@ -836,7 +836,7 @@ body{
     #about-para2{
         display: block;
         text-align:start;
-        font-size: 1.27rem;
+        font-size: 1.2rem;
         line-height:2.1rem;
         word-spacing: 0.6rem;
         color: lightgrey;
@@ -847,11 +847,11 @@ body{
     }
     .table-keys{
         font-weight: 600;
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
     .table-values{
         color: lightgrey;
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
 
 }
