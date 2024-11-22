@@ -246,6 +246,10 @@ body{
 .table-values{
     color: lightgrey;
 }
+.table-values a{
+    color: lightgrey;
+    text-decoration: none;
+}
 
 
 /* tablet screen 850px- 1024px */
@@ -389,51 +393,7 @@ body{
     }
 
     /* about page style for tablet*/
-    #body-heading-container{
-        margin: 0px 0px 55px 0px;
-    }
-    #about-para-btn-container{
-        display: none;
-    }
-    .about-page-container{
-        background-color: #343434;
-        color: white;
-        padding: 60px;
-    }
     
-    #body-heading{
-        font-size: 2rem;
-        text-align: center;
-    }
-    #body-heading-span{
-        color: #FF5733;
-    }
-    #about-page-img-container{
-        display: none;
-    }
-    #about-para-container{
-        margin-bottom: 25px;
-    }
-    #about-para{
-      display: none;
-    }
-    #about-para2{
-        display: block;
-        text-align:start;
-        line-height:2.1rem;
-        word-spacing: 0.6rem;
-        color: lightgrey;
-    }
-    #body-table{
-        width: 100%;
-        border-spacing: 5px 25px;
-    }
-    .table-keys{
-        font-weight: 600;
-    }
-    .table-values{
-        color: lightgrey;
-    }
 }
 
 
