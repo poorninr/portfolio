@@ -412,19 +412,12 @@ body{
     #about-para2{
         display: block;
         text-align:start;
-        font-size: 1.1rem;
         line-height:2.1rem;
         word-spacing: 0.6rem;
         color: lightgrey;
     }
     #body-table{
         border-spacing: 5px 25px;
-    }
-    .table-keys{
-        font-size: 1.1rem;
-    }
-    .table-values{
-        font-size: 1.1rem;
     }
 }
 
@@ -600,19 +593,12 @@ body{
     #about-para2{
         display: block;
         text-align:start;
-        font-size: 1.1rem;
         line-height:2.1rem;
         word-spacing: 0.6rem;
         color: lightgrey;
     }
     #body-table{
         border-spacing: 5px 25px;
-    }
-    .table-keys{
-        font-size: 1.1rem;
-    }
-    .table-values{
-        font-size: 1.1rem;
     }
 
 }
