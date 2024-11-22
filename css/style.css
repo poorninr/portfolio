@@ -393,7 +393,9 @@ body{
     }
 
     /* about page style for tablet*/
-    
+    .about-page-container{
+        display: none;
+    }
 }
 
 
