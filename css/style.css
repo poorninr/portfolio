@@ -98,6 +98,9 @@ body{
 }
 #body-main-container{
     margin-top: 90px;
+    margin-bottom: 40px;
+}
+#about-page-link{
     margin-bottom: 70px;
 }
 .profile-img-container{
@@ -185,7 +188,7 @@ body{
 
 
 /* about page style for mobile*/
-.about-page-container{
+#about-page-container{
     background-color: #343434;
     color: white;
     padding: 25px;
@@ -208,7 +211,8 @@ body{
 }
 #about-para{
     text-align:start;
-    line-height: 1.6rem;
+    line-height: 1.68rem;
+    font-size: 0.9rem;
     word-spacing: 0.3rem;
     color: lightgrey;
 }
@@ -239,16 +243,19 @@ body{
 #body-table{
     width: 100%;
     border-spacing: 7px 25px;
+    margin-bottom: 30px;
 }
 .table-keys{
     font-weight: 600;
 }
 .table-values{
     color: lightgrey;
+    font-size: 0.9rem;
 }
 .table-values a{
     color: lightgrey;
     text-decoration: none;
+    font-size: 0.9rem;
 }
 
 
@@ -399,7 +406,7 @@ body{
     #about-para-btn-container{
         display: none;
     }
-    .about-page-container{
+    #about-page-container{
         padding: 60px;
     }
     
@@ -410,6 +417,7 @@ body{
       display: none;
     }
     #about-para2{
+        font-size: 1rem;
         display: block;
         text-align:start;
         line-height:2.1rem;
@@ -418,8 +426,16 @@ body{
     }
     #body-table{
         border-spacing: 5px 25px;
+        margin-bottom: 0px;
+    }
+    .table-keys{
+        font-size: 1rem;
+    }
+    .table-values{
+        font-size: 1rem;
     }
 }
+
 
 
 
@@ -580,7 +596,7 @@ body{
     #about-para-btn-container{
         display: none;
     }
-    .about-page-container{
+    #about-page-container{
         padding: 60px;
     }
     
@@ -591,6 +607,7 @@ body{
       display: none;
     }
     #about-para2{
+        font-size: 1rem;
         display: block;
         text-align:start;
         line-height:2.1rem;
@@ -599,6 +616,13 @@ body{
     }
     #body-table{
         border-spacing: 5px 25px;
+        margin-bottom: 0px;
+    }
+    .table-keys{
+        font-size: 1rem;
+    }
+    .table-values{
+        font-size: 1rem;
     }
 
 }
@@ -760,23 +784,17 @@ body{
         justify-content: space-evenly;
     }
     #body-heading-container{
-        margin: 0px 0px 55px 0px;
+        margin-top:0px;
     }
     #about-para-btn-container{
         display: none;
     }
-    .about-page-container{
-        background-color: #343434;
-        color: white;
+    #about-page-container{
         padding: 40px;
     }
     
     #body-heading{
         font-size: 2rem;
-        text-align: center;
-    }
-    #body-heading-span{
-        color: #FF5733;
     }
     #about-page-img-container{
        display: flex;
@@ -802,6 +820,7 @@ body{
       display: none;
     }
     #about-para2{
+        font-size: 1rem;
         display: block;
         text-align:start;
         line-height:2.1rem;
@@ -809,14 +828,13 @@ body{
         color: lightgrey;
     }
     #body-table{
-        width: 100%;
         border-spacing: 5px 25px;
+        margin-bottom: 0px;
     }
     .table-keys{
-        font-weight: 600;
+        font-size: 1rem;
     }
     .table-values{
-        color: lightgrey;
+        font-size: 1rem;
     }
-
 }
