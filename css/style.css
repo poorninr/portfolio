@@ -243,7 +243,7 @@ body{
 #body-table{
     width: 100%;
     border-spacing: 7px 25px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .table-keys{
     font-weight: 600;
@@ -256,6 +256,150 @@ body{
     color: lightgrey;
     text-decoration: none;
     font-size: 0.9rem;
+}
+
+/* Resume Page */
+#resume-page-link{
+    margin-bottom: 50px;
+}
+.resume-page-container{
+    background-color: #343434;
+    padding: 25px;
+    
+}
+#resume-heading-container{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#resume-heading-container h1{
+    color: white;
+    font-size: 1.7rem;
+}
+/* #resume-heading-container span{
+    color: #FF5733;
+} */
+
+.education-main-container{
+    width: 90%;
+    height: fit-content;
+    padding: 20px;
+    background-color: #434242;
+    margin: auto;
+    border: none;
+    border-radius: 12px;
+
+}
+.education-main-container h4{
+    color: #FF5733;
+    margin-bottom: 5px;
+}
+.education-main-container h3{
+    color: lightgrey;
+    margin-bottom: 5px;
+}
+.education-main-container h5{
+    color: lightgrey;
+    margin-bottom: 10px;
+}
+.education-main-container p{
+    color: white;
+}
+
+/* skill page */
+#skill-page-link{
+    margin-bottom: 50px;
+}
+.skill-page-container{
+    background-color: #343434;
+    padding: 25px;
+}
+#skill-heading-container{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#skill-heading{
+    font-size: 1.7rem;
+    color: white;
+}
+#skills-main-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.skill-sub-heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skill-sub-heading-container h4{
+    color: lightgrey;
+}
+.skill-sub-heading-container p{
+    color: white;
+}
+.skills-container{
+    width: 100%;
+    height: 10px;
+    background-color: #4b4a4a;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#html{
+    width: 95%;
+    height: 10px;
+    border: none;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    background-color: #FF5733;
+}
+#css{
+    width: 90%;
+    height: 10px;
+    border: none;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    background-color: #FF5733;
+}
+#sass{
+    width: 90%;
+    height: 10px;
+    border: none;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    background-color: #FF5733;
+}
+#js{
+    width: 80%;
+    height: 10px;
+    border: none;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    background-color: #FF5733;
+}
+#angular{
+    width: 60%;
+    height: 10px;
+    border: none;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    background-color: #FF5733;
+}
+#git-github{
+    width: 80%;
+    height: 10px;
+    border: none;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    background-color: #FF5733;
+}
+#web-development{
+    width: 85%;
+    height: 10px;
+    border: none;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    background-color: #FF5733;
 }
 
 
