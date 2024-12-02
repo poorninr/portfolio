@@ -6,7 +6,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+       
         <link rel="stylesheet" href="css/style.css">
         <title>portfolio</title>
     </head>
@@ -22,23 +24,22 @@
                     <p id="list-item7" class="list-items"><a href="#resume-page-link"> Resume</a></p>
                     <p id="list-item3" class="list-items"><a href="#resume-page-link"> Education</a></p>
                     <p id="list-item4" class="list-items"><a href="#skill-page-link"> Skills</a></p>
-                    <p id="list-item5" class="list-items"><a href=""></a> Projects</p>
-                    <p id="list-item6" class="list-items"><a href=""></a> contact</p>  
+                    <p id="list-item5" class="list-items"><a href="#project-page-link">Projects</a> </p>
+                    <p id="list-item6" class="list-items"><a href="#contact-page-link">Contact</a> </p>  
                 </div>
               
            </nav>
-           <div> <i onclick=update() id="menu-bar-icon"class="fa fa-reorder"></i></div>
+           <div><i onclick=update() id="menu-bar-icon" class="fa-solid fa-bars"></i></div>
        </div>
        <div id="menu-bar-container">
           <p id="menu-bar-close-icon"><i class="fa fa-close"></i></p>
                <ul id="menu-bar-items">
-                   <li class="list-itemss"><a href="#name-container"> portfolio</a></li>
                    <li class="list-itemss"><a href="#about-page-link"> About</a></li>
                    <li class="list-itemss"><a href="#resume-page-link"> Resume</a></li>
                    <li class="list-itemss"><a href="#skill-page-link"> Skills</a></li>
                    <!-- <li class="list-items">Education</li> -->
-                   <li class="list-itemss">Project</li>
-                   <li class="list-itemss">Contact</li>
+                   <li class="list-itemss"><a href="#project-page-link">Projects</a></li>
+                   <li class="list-itemss"><a href="#contact-page-link">Contact</a> </li>
                </ul>
         </div>
         <br>
@@ -153,7 +154,7 @@
 
          <div class="skill-page-container">
             <div id="skill-heading-container">
-                <h1 id="skill-heading">My Skills</h1>
+                <h1 id="skill-heading"><span> My</span> Skills </h1>
             </div>
             <div id="skills-main-container">
                 <div class="skill-sub-heading-container">
@@ -200,16 +201,94 @@
                     <div id="git-github"></div>
                 </div><br>
                 <div class="skill-sub-heading-container">
-                    <h4>Web Development</h4>
+                    <h4>Web Development </h4>
                     <p>85%</p>
                 </div>
                 <div class="skills-container">
                     <div id="web-development"></div>
                 </div><br>
+    
             </div>
-         </div><br>
+            <div id="project-page-link">
+                j
+            </div>
+         </div>
+
+
          <!-- project page -->
+        <div id="project-page-main-container">  
+            <div class="project-page-heading-container">
+                <h1 id="project-page-heading">Projects</h1>
+            </div>
+            <div id="project-main-container">
+                <div class="project-container">
+                    <div class="project-img-container">
+                        <img src="images/bpms.jpeg" alt="bpms landing page image">
+                    </div>
+                    <div class="project-content-container">
+                        <p class="project-heading"> BPMS </p>
+                        <p class="project-description">The Beauty Parlour Management System is a user-friendly and it's parlour owners to manage their business efficiently. </p>
+                    </div>
+                </div>
+    
+                <div class="project-container">
+                    <div class="project-img-container">
+                        <img src="images/e-commerce.jpeg" alt="e-commerce landing page image">
+                    </div>
+                    <div class="project-content-container">
+                        <p class="project-heading"> E-commerce Website</p>
+                        <p class="project-description"> The e-commerce website allows users to browse and purchase products online. Using HTML, CSS, JavaScript.</p>
+                    </div>
+                </div>
+    
+                <!-- <div class="project-container">
+                    <div class="project-img-container">
+                        <img src="images/bpms.jpeg" alt="bpms landing page image">
+                    </div>
+                    <div class="project-content-container">
+                        <h2 class="project-heading"> </h2>
+                        <p class="project-description"> </p>
+                    </div>
+                </div> -->
+                
+            </div>
+            <div id="contact-page-link">
+                    j
+            </div>
+        </div>
           
+          <!-- contact page  -->
+           <div class="contact-page-container">
+            <div id="contact-heading-container">
+                <h1>Contact <span> Me</span></h1>
+            </div>
+            <form action="" id="contact-form-container">
+                <input type="text" class="contact-inputs" name="name" placeholder="Name" required>
+                <input type="email" class="contact-inputs" name="email" placeholder="Email" required>
+                <input type="text" class="contact-inputs" name="subject" placeholder="Subject" required>
+                <textarea class="contact-inputs" name="message" placeholder="Your Message" required></textarea>
+                <button id="contact-button">Send Message</button>
+            </form>
+           </div>
+
+           <!-- footer content -->
+            <div id="footer-main-container">
+                <div class="footer-list-container">
+                    <ul>
+                        <li><a href="#name-container">Home</a></li>
+                        <li><a href="#about-page-link">About</a></li>
+                        <li><a href="#resume-page-link">Resume</a></li>
+                        <li><a href="#skill-page-link">Skills</a></li>
+                        <li><a href="#project-page-link">Project</a></li>
+                    </ul>
+                </div>
+                <div class="footer-para-container"> 
+                    <p>This is poornima. Thank you for visiting my portfolio</p>
+                </div>
+                <div class="copy-right-container">
+                    <h6>@ 2024 poornima</h6>
+                </div>
+            </div>
      <script src="script/script.js"></script>
     </body>
 </html>

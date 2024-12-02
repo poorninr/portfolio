@@ -84,15 +84,15 @@ body{
     margin-bottom:50px;
     cursor:pointer ;
 }
-
-.list-itemss:hover{
-    color:#FF5733 ;
-    transition:0.8s;
-}
 .list-itemss a{
     color: white;
     text-decoration: none;
 }
+.list-itemss a:hover{
+    color:#FF5733 ;
+    transition:0.8s;
+}
+
 #nav-bar-item-container{
     display: none;
 }
@@ -194,7 +194,7 @@ body{
     padding: 25px;
 }
 #body-heading-container{
-    margin: 20px 0px 25px 0px;
+    margin: 20px 0px 30px 0px;
 }
 #body-heading{
     font-size: 1.7rem;
@@ -258,6 +258,7 @@ body{
     font-size: 0.9rem;
 }
 
+
 /* Resume Page */
 #resume-page-link{
     margin-bottom: 50px;
@@ -269,16 +270,15 @@ body{
 }
 #resume-heading-container{
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 #resume-heading-container h1{
     color: white;
     font-size: 1.7rem;
 }
-/* #resume-heading-container span{
+#resume-heading-container h1 span{
     color: #FF5733;
-} */
-
+}
 .education-main-container{
     width: 90%;
     height: fit-content;
@@ -287,7 +287,9 @@ body{
     margin: auto;
     border: none;
     border-radius: 12px;
-
+}
+.education-main-container:hover{
+    transform: scale(1.1,1.1);
 }
 .education-main-container h4{
     color: #FF5733;
@@ -305,6 +307,7 @@ body{
     color: white;
 }
 
+
 /* skill page */
 #skill-page-link{
     margin-bottom: 50px;
@@ -321,8 +324,11 @@ body{
     font-size: 1.7rem;
     color: white;
 }
+#skill-heading span{
+    color: #FF5733;
+}
 #skills-main-container{
-    padding: 20px;
+    padding: 35px;
     display: flex;
     flex-direction: column;
 }
@@ -339,19 +345,29 @@ body{
 }
 .skills-container{
     width: 100%;
-    height: 10px;
+    height: 9px;
     background-color: #4b4a4a;
     border: none;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 #html{
     width: 95%;
-    height: 10px;
+    height: 9px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
     background-color: #FF5733;
+    animation: html 2s;
+}
+@keyframes html{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 95%;
+	}
 }
 #css{
     width: 90%;
@@ -360,6 +376,16 @@ body{
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
     background-color: #FF5733;
+    animation: css 2s;
+}
+@keyframes css{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 90%;
+	}
 }
 #sass{
     width: 90%;
@@ -368,6 +394,16 @@ body{
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
     background-color: #FF5733;
+    animation: sass 2s;
+}
+@keyframes sass{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 90%;
+	}
 }
 #js{
     width: 80%;
@@ -376,6 +412,16 @@ body{
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
     background-color: #FF5733;
+    animation: js 2s;
+}
+@keyframes js{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
 }
 #angular{
     width: 60%;
@@ -384,6 +430,16 @@ body{
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
     background-color: #FF5733;
+    animation: angular 2s;
+}
+@keyframes angular{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 60%;
+	}
 }
 #git-github{
     width: 80%;
@@ -392,6 +448,16 @@ body{
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
     background-color: #FF5733;
+    animation: git 2s;
+}
+@keyframes git{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
 }
 #web-development{
     width: 85%;
@@ -400,7 +466,185 @@ body{
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
     background-color: #FF5733;
+    animation: web 2s;
 }
+@keyframes web{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 85%;
+	}
+}
+
+/* project design */
+#project-page-link{
+    margin-bottom: 10px;
+    color: #343434;
+}
+#project-page-main-container{
+    background-color: #343434;
+}
+.project-page-heading-container{
+    text-align: center;
+    margin-bottom: 30px;
+    /* margin: 36px 0px 40px 0px;
+    padding: 10px; */
+}
+#project-page-heading{
+    font-size: 1.7rem;
+    color: white;
+}
+/* #project-main-container{
+    margin-bottom: 60px;
+} */
+.project-img-container{
+    text-align: center;
+}
+.project-container{
+    width:77%;
+    height: fit-content;
+    border: 2px solid lightgrey;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.project-container:hover{
+    background-color: grey;
+    border: 2px solid black;
+    color: black;
+    transition: 0.8s;
+
+}
+
+.project-img-container img{
+    width: 90%;
+    box-shadow:2px 2px 25px brown;
+    /* border: 6px solid #FF5733; */
+    /* height: 100px; */
+}
+.project-content-container{
+    text-align: center;
+}
+.project-heading{
+    margin:10px 0px 10px 0px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #FF5733;
+}
+.project-description{
+    font-size:0.8rem;
+    font-weight: 500;
+    /* line-height: 1.68rem;
+    word-spacing: 0.3rem; */
+}
+
+
+/* contact page design */
+#contact-page-link{
+    margin: 60px;
+    color: #343434;
+}
+.contact-page-container{
+    margin-bottom: 40px;
+}
+#contact-heading-container{
+    text-align: center;
+}
+#contact-heading-container h1{
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+}
+#contact-heading-container h1 span{
+    color: #FF5733;
+}
+#contact-form-container{
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.contact-inputs{
+    width: 310px;
+    height: 50px;
+    border: 2px solid #343434;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.contact-inputs:focus{
+    border: 2px solid brown ;
+}
+#contact-form-container textarea{
+    height: 140px;
+    padding-top: 15px;  
+}
+#contact-button{
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color:black;
+    color: white;
+    border: 1.5px solid black;
+    cursor: pointer;
+
+}
+
+#contact-button:hover{
+    background-color: #FF5733;
+    color: white;
+    border:1.5px solid brown ;
+    text-shadow: 2px 2px 4px white;
+}
+
+
+/* footer styel */
+#footer-main-container{
+    background-color: black;
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.footer-list-container ul{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.footer-list-container ul li{
+    list-style: none;
+    margin-right: 15px;
+    font-size: 0.9rem;
+
+}
+.footer-list-container ul li a:hover{
+    color: white;
+}
+.footer-list-container ul li a{
+    text-decoration: none;
+    color: brown;
+}
+.footer-para-container p{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.copy-right-container h6{
+    font-weight: 600;
+}
+
+
 
 
 /* tablet screen 850px- 1024px */
