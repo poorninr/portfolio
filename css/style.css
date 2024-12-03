@@ -150,22 +150,26 @@ body{
     flex-direction: row;
     justify-content: center;
 }
-#hire-me-button{
+
+#hire-me-button {
     padding: 10px 20px;
     border-radius: 23px;
     font-size: 0.8rem;
     font-weight: 600;
     text-transform:uppercase;
     background-color: #FF5733;
-    color: white;
     margin-right: 10px;
     border: 1.5px solid #FF5733;
     cursor: pointer;
-    
+   
 }
-#hire-me-button:hover{
+#hire-me-button a{
+    color: white;
+    text-decoration: none;  
+}
+#hire-me-button a:hover{
     background-color: white;
-    border: 1.5px solid #343434;
+    /* border: 1.5px solid #343434; */
     color: #343434;
     transition: 0.8s;
 }
@@ -176,10 +180,14 @@ body{
     font-weight: 600;
     text-transform:uppercase;
     padding: 10px 17px;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
-#my-works-button:hover{
+#my-works-button a{
+    color: black;
+    text-decoration: none;
+    border: none;
+}
+#my-works-button a:hover{
     background-color: #343434;
     color: white;
     transition: 0.8s;
@@ -261,7 +269,7 @@ body{
 
 /* Resume Page */
 #resume-page-link{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .resume-page-container{
     background-color: #343434;
@@ -310,7 +318,7 @@ body{
 
 /* skill page */
 #skill-page-link{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .skill-page-container{
     background-color: #343434;
@@ -328,9 +336,10 @@ body{
     color: #FF5733;
 }
 #skills-main-container{
-    padding: 35px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .skill-sub-heading-container{
     display: flex;
@@ -343,17 +352,23 @@ body{
 .skill-sub-heading-container p{
     color: white;
 }
+.skills{
+    width: 92%;
+}
 .skills-container{
     width: 100%;
-    height: 9px;
+    height: 8px;
     background-color: #4b4a4a;
     border: none;
     border-radius: 20px;
     margin-bottom: 30px;
 }
+#web-container{
+    margin-bottom: 0px;
+}
 #html{
     width: 95%;
-    height: 9px;
+    height: 8px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -371,7 +386,7 @@ body{
 }
 #css{
     width: 90%;
-    height: 10px;
+    height: 8px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -389,7 +404,7 @@ body{
 }
 #sass{
     width: 90%;
-    height: 10px;
+    height: 8px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -407,7 +422,7 @@ body{
 }
 #js{
     width: 80%;
-    height: 10px;
+    height: 8px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -425,7 +440,7 @@ body{
 }
 #angular{
     width: 60%;
-    height: 10px;
+    height: 8px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -443,7 +458,7 @@ body{
 }
 #git-github{
     width: 80%;
-    height: 10px;
+    height: 8px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -461,7 +476,7 @@ body{
 }
 #web-development{
     width: 85%;
-    height: 10px;
+    height: 8px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -479,12 +494,10 @@ body{
 }
 
 /* project design */
-#project-page-link{
-    margin-bottom: 10px;
-    color: #343434;
-}
+
 #project-page-main-container{
     background-color: #343434;
+    padding: 25px;
 }
 .project-page-heading-container{
     text-align: center;
@@ -496,9 +509,11 @@ body{
     font-size: 1.7rem;
     color: white;
 }
-/* #project-main-container{
-    margin-bottom: 60px;
-} */
+#project-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .project-img-container{
     text-align: center;
 }
@@ -512,19 +527,18 @@ body{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    margin: auto;
     margin-bottom: 40px;
 }
 .project-container:hover{
     background-color: grey;
     border: 2px solid black;
-    color: black;
+    color: white;
     transition: 0.8s;
-
 }
 
 .project-img-container img{
     width: 90%;
+    height: 18vh;
     box-shadow:2px 2px 25px brown;
     /* border: 6px solid #FF5733; */
     /* height: 100px; */
@@ -547,12 +561,10 @@ body{
 
 
 /* contact page design */
-#contact-page-link{
-    margin: 60px;
-    color: #343434;
-}
+
 .contact-page-container{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    padding: 25px;
 }
 #contact-heading-container{
     text-align: center;
@@ -609,7 +621,7 @@ body{
 }
 
 
-/* footer styel */
+/* footer style */
 #footer-main-container{
     background-color: black;
     color: lightgrey;
@@ -647,20 +659,32 @@ body{
 
 
 
-/* tablet screen 850px- 1024px */
-@media screen and (min-width:850px) and (max-width:1024px){
+/* tablet screen above 768px*/
+@media screen and (min-width:768px){
     #menu-bar-icon{
         font-size: 0.2rem;
         display: none;
     }
-
-    #list-item7, #list-item5{
+    #name-span1{
+        font-size: 1.8rem;
+    }
+    #list-item3,#list-item4, #list-item5{
         margin-left: 15px;
     }
-    #list-item1, #list-item3, #list-item4{
-        display: none;
+    .list-items a{
+        list-style:none;
+        font-size:1.1rem;
+        font-weight:bold;
+        color: white;
+        text-decoration: none;
+        cursor:pointer ;
     }
-    #list-item6{
+    
+    .list-items a:hover{
+        color:#FF5733 ;
+        transition:0.8s;
+    }
+    #list-item6 a{
         background-color: white;
         color:#343434;
         border: none;
@@ -670,7 +694,7 @@ body{
         margin-right: 60px;
         transition: 0.8s;
     }
-    #list-item6:hover{
+    #list-item6 a:hover{
         background-color: #FF5F15;
         color: white;
         box-shadow: 0 2px 10px 0 #FF5F15, 0 2px 12px 0 #FF5F15;
@@ -690,25 +714,8 @@ body{
         display: flex;
         flex-direction: row;
         color: white;
-        /* position: absolute;
-        top: 38px;
-        right: 50px; */
     } 
-    .list-items{
-        list-style:none;
-        font-size:1.1rem;
-        font-weight:bold;
-        cursor:pointer ;
-    }
-    
-    .list-items:hover{
-        color:#FF5733 ;
-        transition:0.8s;
-    }
-    .list-items a{
-        color: white;
-        text-decoration: none;
-    }
+   
     #body-main-container{
         min-width: 100%;
         display: flex;
@@ -716,7 +723,6 @@ body{
         justify-content: center;
         align-items: center;
         margin-bottom: 80px;
-        
     }
     .profile-img-container{
         display: none;
@@ -809,7 +815,7 @@ body{
         display: block;
         text-align:start;
         line-height:2.1rem;
-        word-spacing: 0.6rem;
+        word-spacing: 0.5rem;
         color: lightgrey;
     }
     #body-table{
@@ -822,13 +828,147 @@ body{
     .table-values{
         font-size: 1rem;
     }
+
+    /* resume page */
+    #resume-page-link{
+        margin-bottom: 0px;
+    }
+    .resume-page-container{
+        padding: 40px;
+    }
+    #resume-heading-container{
+        margin-bottom: 40px;
+    }
+    #resume-heading-container h1{
+        font-size: 2rem;
+    }
+    .education-main-container{
+        padding: 25px 25px 25px 35px;
+        width: 60%;
+        margin-bottom: 10px; 
+    }
+    .education-main-container h4{
+        font-size: 1.2rem;
+    }
+    .education-main-container h3{
+        font-size: 1.5rem;
+    }
+    .education-main-container h5{
+        font-size: 1.06rem;
+    }
+    .education-main-container p{
+        font-size: 1.4rem;
+    }
+
+    /* skill page */
+    #skill-page-link{
+        margin-bottom: 25px;
+    }
+    .skill-page-container{
+        padding: 40px;
+    }
+    #skill-heading-container{
+        margin-bottom: 40px;
+    }
+    #skill-heading{
+        font-size: 2rem;
+    }
+    #skills-main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills{
+        width: 68%;
+    }
+    #web-container{
+        margin-bottom: 0px;
+    }
+
+    /* project page */
+    #project-page-link{
+        margin-bottom: 0px;
+        font-size: 0.1rem;
+    }
+    #project-page-main-container{
+        padding: 40px;
+    }
+    .project-page-heading-container{
+        margin-bottom: 40px;
+    }
+    #project-page-heading{
+        font-size: 2rem;
+    }
+    .project-container{
+        width: 55%;
+        height: 47vh;
+        margin-right: 25px;
+    }
+    .project-container:hover{
+        transform: scale(1.1,1.1);
+    }
+    .project-img-container{
+        margin-top: 15px;
+    }
+    .project-heading{
+        font-size: 1.4rem;
+        margin:15px 0px 15px 0px;
+    }
+    .project-description{
+        font-size:1rem;
+        margin-bottom: 15px;
+        word-spacing: 0.2rem;
+    }
+
+    /* contact page */
+    .contact-page-container{
+        padding: 40px;
+    }
+    #contact-heading-container{
+        margin-bottom: 40px;
+    }
+    #contact-heading-container h1{
+        font-size: 2rem;
+    }
+    #contact-form-container{
+        gap: 22px;
+    }
+    .contact-inputs{
+        width:550px ;
+        height: 60px;
+        font-size: 1.08rem;
+        /* background-color: rgb(239, 236, 236); */
+    }
+    #contact-form-container textarea{
+        height: 220px;
+        padding-top: 20px;  
+    }
+    #contact-button{
+        padding: 15px 25px;
+    }
+
+    /* footer page */
+    .footer-list-container ul li{
+        font-size: 1.1rem;
+        margin-right: 23px;
+    }
+    .footer-para-container p{
+        font-size: 0.8rem;
+        word-spacing: 0.04rem;
+        letter-spacing: 0.1rem;
+    }
+    .copy-right-container h6{
+        font-weight: 600;
+        font-size: 0.7rem;
+    }
+    
 }
 
 
 
 
 /* Desktop screen above 1025px to 1200px*/
-@media screen and (min-width:1025px) and (max-width:1200px){
+@media screen and (min-width:1024px){
     #menu-bar-icon{
         font-size: 0.2rem;
         display: none;
@@ -845,7 +985,7 @@ body{
     #list-item7{
         display: none;
     } 
-    #list-item6{
+    #list-item6 a{
         background-color: white;
         color:#343434;
         border: none;
@@ -855,7 +995,7 @@ body{
         margin-right: 110px;
         transition: 0.8s;
     }
-    #list-item6:hover{
+    #list-item6 a:hover{
         background-color: #FF5F15;
         color: white;
         box-shadow: 0 2px 10px 0 #FF5F15, 0 2px 12px 0 #FF5F15;
@@ -879,20 +1019,18 @@ body{
         flex-direction: row;
         color: white;
     } 
-    .list-items{
+    .list-items a{
         list-style:none;
         font-size:1rem;
         font-weight:bold;
         cursor:pointer ;
-    }
-    
-    .list-items:hover{
-        color:#FF5733 ;
-        transition:0.8s;
-    }
-    .list-items a{
         color: white;
         text-decoration: none;
+    }
+    
+    .list-items a:hover{
+        color:#FF5733 ;
+        transition:0.8s;
     }
     #body-main-container{
         min-width: 100%;
@@ -978,19 +1116,44 @@ body{
 
     /* about page style for Desktop*/
     
+    #about-page-container{
+        padding: 40px;   
+    }
+    #about-page-sub-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: auto;
+    }
     #body-heading-container{
         margin-top:0px;
+        margin-bottom: 40px;
     }
     #about-para-btn-container{
         display: none;
-    }
-    #about-page-container{
-        padding: 60px;
     }
     
     #body-heading{
         font-size: 2rem;
     }
+    #about-page-img-container{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+       width: 35%;
+       
+    }
+    #about-page-img-container img{
+        width: 310px;
+        height: 440px;
+        border-radius: 50%;
+    } 
+    .about-page-content-container{
+        width: 50%;
+        /* margin-right: 30px; */
+    }
+    
     #about-para{
       display: none;
     }
@@ -999,7 +1162,7 @@ body{
         display: block;
         text-align:start;
         line-height:2.1rem;
-        word-spacing: 0.6rem;
+        word-spacing: 0.5rem;
         color: lightgrey;
     }
     #body-table{
@@ -1013,11 +1176,145 @@ body{
         font-size: 1rem;
     }
 
+    /* resume page  */
+    .resume-page-container{
+        padding: 40px;
+    }
+    #resume-heading-container{
+        margin-bottom: 40px;
+    }
+    #resume-heading-container h1{
+        font-size: 2rem;
+    }
+    .education-main-container{
+        padding: 25px 25px 25px 35px;
+        width: 35%;
+        margin-bottom: 30px; 
+    }
+    .education-main-container h4{
+        font-size: 1.2rem;
+    }
+    .education-main-container h3{
+        font-size: 1.2rem;
+    }
+    .education-main-container h5{
+        font-size: 1rem;
+    }
+    .education-main-container p{
+        font-size: 1.2rem;
+    }
+    #resume-education-container{
+      
+        /* margin: 0px 100px 0px 80px; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #item1{
+        margin-left: 125px;
+    }
+    #item2{
+        margin-right: 125px;
+    }
+    #item3{
+        margin-left: 125px;
+    }
+    #item4{
+        margin-right: 125px;
+    }
+
+    /* skill page */
+    #skill-heading{
+        font-size: 2rem;
+    }
+    #skills-main-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .skills{
+        flex-basis: 35%;
+        margin-left: 100px;
+    }
+    /* project page */
+    #project-page-main-container{
+        padding: 40px;
+    }
+    .project-page-heading-container{
+        margin-bottom: 40px;
+    }
+    #project-page-heading{
+        font-size: 2rem;
+    }
+    #project-main-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .project-container{
+        width: 28%;
+        height: 48vh;
+        margin-right: 25px;
+    }
+    .project-container:hover{
+        transform: scale(1.1,1.1);
+    }
+    .project-img-container{
+        margin-top: 15px;
+    }
+    .project-heading{
+        font-size: 1.3rem;
+    }
+    .project-description{
+        font-size:0.9rem;
+        margin-bottom: 15px;
+    }
+    /* contact page */
+    .contact-page-container{
+        padding: 40px;
+    }
+    #contact-heading-container{
+        margin-bottom: 40px;
+    }
+    #contact-heading-container h1{
+        font-size: 2rem;
+    }
+    #contact-form-container{
+        gap: 22px;
+    }
+    .contact-inputs{
+        width:700px ;
+        height: 60px;
+        font-size: 1.08rem;
+        /* background-color: rgb(239, 236, 236); */
+    }
+    #contact-form-container textarea{
+        height: 220px;
+        padding-top: 20px;  
+    }
+    #contact-button{
+        padding: 12px 22px;
+    }
+
+    /* footer style */
+    .footer-list-container ul li{
+        font-size: 1.1rem;
+        margin-right: 30px;
+    }
+    .footer-para-container p{
+        font-size: 0.9rem;
+        word-spacing: 0.05rem;
+        letter-spacing: 0.1rem;
+    }
+    .copy-right-container h6{
+        font-weight: 600;
+        font-size: 0.85rem;
+    }
 }
 
 
 /* Desktop screen above 1201px */
-@media screen and (min-width:1201px){
+@media screen and (min-width:1200px){
     #menu-bar-icon{
         font-size: 0.2rem;
         display: none;
@@ -1025,26 +1322,34 @@ body{
     .nav-bar-container{
         height: 100px;
     }
-    #list-item1{
-        color:#FF5733;
-    }
      #list-item1, #list-item2,#list-item3,#list-item4,#list-item5{
         margin-left: 25px;
     }
-    #list-item7{
-        display: none;
-    } 
-    #list-item6{
+    .list-items a{
+        list-style:none;
+        font-size:1rem;
+        font-weight:bold;
+        color: white;
+        text-decoration: none;
+        cursor:pointer ;
+    }
+    .list-items a:hover{
+        color:#FF5733 ;
+        transition:0.8s;
+    }
+    
+    #list-item6 a{
         background-color: white;
         color:#343434;
         border: none;
         border-radius: 5px;
         padding: 3px 17px;
-        margin-left:50px;
-        margin-right: 120px;
+        margin-left: 60px;
+        margin-right: 60px;
+        text-decoration: none;
         transition: 0.8s;
     }
-    #list-item6:hover{
+    #list-item6 a:hover{
         background-color: #FF5F15;
         color: white;
         box-shadow: 0 2px 10px 0 #FF5F15, 0 2px 12px 0 #FF5F15;
@@ -1070,22 +1375,7 @@ body{
         justify-content: flex-end;
         color: white;
     } 
-    .list-items{
-        list-style:none;
-        font-size:1rem;
-        font-weight:bold;
-        /* margin-bottom:50px; */
-        cursor:pointer ;
-    }
     
-    .list-items:hover{
-        color:#FF5733 ;
-        transition:0.8s;
-    }
-    .list-items a{
-        color: white;
-        text-decoration: none;
-    }
     #body-main-container{
         min-width: 100%;
         display: flex;
@@ -1166,6 +1456,9 @@ body{
     }
 
     /* about page style for Desktop*/
+    #about-page-container{
+        padding: 40px;   
+    }
     #about-page-sub-container{
         display: flex;
         flex-direction: row;
@@ -1173,12 +1466,10 @@ body{
     }
     #body-heading-container{
         margin-top:0px;
+        margin-bottom: 40px;
     }
     #about-para-btn-container{
         display: none;
-    }
-    #about-page-container{
-        padding: 40px;
     }
     
     #body-heading{
@@ -1212,7 +1503,7 @@ body{
         display: block;
         text-align:start;
         line-height:2.1rem;
-        word-spacing: 0.6rem;
+        word-spacing: 0.5rem;
         color: lightgrey;
     }
     #body-table{
@@ -1224,5 +1515,138 @@ body{
     }
     .table-values{
         font-size: 1rem;
+    }
+
+    /* resume page  */
+    .resume-page-container{
+        padding: 40px;
+    }
+    #resume-heading-container{
+        margin-bottom: 40px;
+    }
+    #resume-heading-container h1{
+        font-size: 2rem;
+    }
+    .education-main-container{
+        padding: 25px 25px 25px 35px;
+        width: 35%;
+        margin-bottom: 30px; 
+    }
+    .education-main-container h4{
+        font-size: 1.2rem;
+    }
+    .education-main-container h3{
+        font-size: 1.5rem;
+    }
+    .education-main-container h5{
+        font-size: 1.06rem;
+    }
+    .education-main-container p{
+        font-size: 1.4rem;
+    }
+    #resume-education-container{
+      
+        /* margin: 0px 100px 0px 80px; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #item1{
+        margin-left: 150px;
+    }
+    #item2{
+        margin-right: 150px;
+    }
+    #item3{
+        margin-left: 150px;
+    }
+    #item4{
+        margin-right: 150px;
+    }
+
+    /* skill page */
+    #skill-heading{
+        font-size: 2rem;
+    }
+    #skills-main-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .skills{
+        flex-basis: 35%;
+        margin-left: 140px;
+    }
+    /* project page */
+    #project-page-main-container{
+        padding: 40px;
+    }
+    .project-page-heading-container{
+        margin-bottom: 40px;
+    }
+    #project-page-heading{
+        font-size: 2rem;
+    }
+    #project-main-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .project-container{
+        width: 28%;
+        height: 48vh;
+        margin-right: 25px;
+    }
+    .project-container:hover{
+        transform: scale(1.1,1.1);
+    }
+    .project-img-container{
+        margin-top: 15px;
+    }
+    .project-description{
+        font-size:0.9rem;
+        margin-bottom: 15px;
+    }
+
+    /* contact page */
+    .contact-page-container{
+        padding: 40px;
+    }
+    #contact-heading-container{
+        margin-bottom: 40px;
+    }
+    #contact-heading-container h1{
+        font-size: 2rem;
+    }
+    #contact-form-container{
+        gap: 25px;
+    }
+    .contact-inputs{
+        width:720px ;
+        height: 70px;
+        font-size: 1.08rem;
+        /* background-color: rgb(239, 236, 236); */
+    }
+    #contact-form-container textarea{
+        height: 220px;
+        padding-top: 20px;  
+    }
+    #contact-button{
+        padding: 15px 25px;
+    }
+
+    /* footer style */
+    .footer-list-container ul li{
+        font-size: 1.1rem;
+        margin-right: 30px;
+    }
+    .footer-para-container p{
+        font-size: 0.9rem;
+        word-spacing: 0.05rem;
+        letter-spacing: 0.1rem;
+    }
+    .copy-right-container h6{
+        font-weight: 600;
+        font-size: 0.85rem;
     }
 }
