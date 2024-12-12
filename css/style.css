@@ -218,16 +218,26 @@ body{
     font-size: 0.9rem;
     word-spacing: 0.3rem;
     color: lightgrey;
+    margin-bottom: 25px;
 }
 #about-para2{
     display: none;
 }
-#about-para-btn-container{
+#para3-container{
+    display: none;
+}
+#about-para3{
+    text-align:start;
+    line-height: 1.68rem;
+    font-size: 0.9rem;
+    word-spacing: 0.3rem;
+    color: lightgrey;
     margin-bottom: 25px;
 }
-#about-para-btn{
+#about-para-btn1{
     background-color: #343434;
     border: 1.5px #FF5733 solid;
+    color: #FF5733;
     border-radius: 23px;
     font-size: 0.8rem;
     font-weight: 600;
@@ -235,11 +245,22 @@ body{
     padding: 10px 17px;
     cursor: pointer;
 }
-#about-para-btn a{
-    color: #FF5733;
-    text-decoration: none;
+#about-para-btn1:hover{
+    background-color: white;
+    transition: 0.8s;
 }
-#about-para-btn:hover{
+#about-para-btn2{
+    background-color: #343434;
+    border: 1.5px #FF5733 solid;
+    color: #FF5733;
+    border-radius: 23px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform:uppercase;
+    padding: 10px 17px;
+    cursor: pointer;
+}
+#about-para-btn2:hover{
     background-color: white;
     transition: 0.8s;
 }
@@ -774,26 +795,30 @@ body{
         border-radius: 30px;
         font-size: 0.9rem;
     }
-
+    
     /* about page style for tablet*/
-    #body-heading-container{
-        margin-top:0px;
-    }
-    #about-para-btn-container{
-        display: none;
-    }
     #about-page-container{
         padding: 60px;
     }
-    
+    #body-heading-container{
+        margin:0px 0px 40px 0px;
+    }
     #body-heading{
         font-size: 2rem;
     }
-    #body-table{
-        border-spacing: 5px 25px;
-        margin-bottom: 0px;
+    #para1-container{
+        display: none;
     }
-
+    #about-para2{
+        display: block;
+        text-align:start;
+        line-height: 2.1rem;
+        word-spacing: 0.5rem;
+        color: lightgrey;
+    }
+    .table-values{
+        font-size: 1rem;
+    }
     /* resume page */
     #resume-page-link{
         margin-bottom: 0px;
@@ -1107,7 +1132,7 @@ body{
         /* margin-right: 30px; */
     }
     
-    #about-para{
+    #para1-container{
       display: none;
     }
     #about-para2{
@@ -1436,7 +1461,7 @@ body{
     #about-para-container{
         margin-bottom: 25px;
     }
-    #about-para{
+    #para1-container{
       display: none;
     }
     #about-para2{
