@@ -52,8 +52,8 @@
                 <p id="body-job">A Web Developer</p>
                 <p id="body-welcome">Welcome to my portfolio!</p>
                 <div id="body-button-container">
-                    <button id="hire-me-button"><a href="#contact-page-link">hire me</a></button>
-                    <button id="my-works-button"> <a href="#project-page-link">my works </a></button>
+                    <a id="hire-me-button" href="#contact-page-link">hire me</a>
+                    <a id="my-works-button" href="#project-page-link">my works </a>
                 </div>
             </div>
             <div class="profile-img-container2">
@@ -114,7 +114,7 @@
             </div>
             <div id="resume-page-link">
             </div>
-        </div><hr>
+        </div>
         
 
         <!-- Resume page -->
@@ -151,7 +151,7 @@
            
             <div id="skill-page-link">
             </div>
-         </div><hr>
+         </div>
          <!-- skill page -->
 
          <div class="skill-page-container">
@@ -226,7 +226,7 @@
             </div>
             <div id="project-page-link">
             </div>
-         </div><hr>
+         </div>
 
 
          <!-- project page -->
@@ -262,21 +262,22 @@
                     </div>
                     <div class="project-content-container">
                         <p class="project-heading"> E-commerce Website</p>
-                        <p class="project-description">Developed an e-commerce website for an online store, featuring product catalogs and fashion brands.</p>
+                        <p class="project-description">Designed and built a responsive e-commerce website for an online store, featuring product catalogs and fashion brands.</p>
                     </div>
                 </div>
                 
             </div>
             <div id="contact-page-link">
             </div>
-        </div><hr>
+        </div>
           
           <!-- contact page  -->
            <div class="contact-page-container">
             <div id="contact-heading-container">
                 <h1>Contact <span> Me</span></h1>
             </div>
-            <form action="" id="contact-form-container">
+            <form action="https://api.web3forms.com/submit" method="POST" id="contact-form-container">
+                <input type="hidden" name="access_key" value="dd382062-2574-44aa-aa84-6a8b612348e2">
                 <input type="text" class="contact-inputs" name="name" placeholder="Name" required>
                 <input type="email" class="contact-inputs" name="email" placeholder="Email" required>
                 <input type="text" class="contact-inputs" name="subject" placeholder="Subject" required>

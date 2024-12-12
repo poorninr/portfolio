@@ -21,3 +21,12 @@ for(i=0; i<listItems.length;i++)
     })
 }
 
+
+contactInputs=document.querySelector('#contact-form-container')
+contactBtn=document.querySelector('#contact-button')
+
+// contactBtn.addEventListener("click",submitForm)
+// function submitForm() {
+//     document.contactInputs.reset();
+//     }
+

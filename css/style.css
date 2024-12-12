@@ -151,30 +151,30 @@ body{
     justify-content: center;
 }
 
-#hire-me-button {
-    padding: 10px 20px;
+#hire-me-button{
+    color: white;
+    text-decoration: none;  
+    padding: 10px 25px;
     border-radius: 23px;
     font-size: 0.8rem;
     font-weight: 600;
     text-transform:uppercase;
     background-color: #FF5733;
     margin-right: 10px;
-    border: 1.5px solid #FF5733;
+    border: 2px solid #FF5733;
     cursor: pointer;
    
 }
-#hire-me-button a{
-    color: white;
-    text-decoration: none;  
-}
-#hire-me-button a:hover{
+#hire-me-button:hover{
     background-color: white;
     /* border: 1.5px solid #343434; */
-    color: #343434;
+    color: #FF5733;
     transition: 0.8s;
 }
 #my-works-button{
-    border: 1.5px black solid;
+    color: black;
+    text-decoration: none;
+    border: 1px black solid;
     border-radius: 23px;
     font-size: 0.8rem;
     font-weight: 600;
@@ -182,12 +182,7 @@ body{
     padding: 10px 17px;
     cursor: pointer; 
 }
-#my-works-button a{
-    color: black;
-    text-decoration: none;
-    border: none;
-}
-#my-works-button a:hover{
+#my-works-button:hover{
     background-color: #343434;
     color: white;
     transition: 0.8s;
@@ -769,28 +764,15 @@ body{
         margin-top: 27px;
     }
     #hire-me-button{
-        padding: 15px 29px;
-        border-radius: 24px;
+        padding: 14px 29px;
+        border-radius: 30px;
         font-size: 0.9rem;
-        cursor: pointer;
         margin-right: 20px;
     }
-    #hire-me-button:hover{
-        background-color: white;
-        border: 1.5px solid #343434;
-        color: #343434;
-        transition: 0.8s;
-    }
     #my-works-button{
-        padding: 15px 26px;
-        border-radius: 24px;
+        padding: 14px 23px;
+        border-radius: 30px;
         font-size: 0.9rem;
-        cursor: pointer;
-    }
-    #my-works-button:hover{
-        background-color: #343434;
-        color: white;
-        transition: 0.8s;
     }
 
     /* about page style for tablet*/
@@ -811,7 +793,6 @@ body{
       display: none;
     }
     #about-para2{
-        font-size: 1rem;
         display: block;
         text-align:start;
         line-height:2.1rem;
@@ -821,12 +802,6 @@ body{
     #body-table{
         border-spacing: 5px 25px;
         margin-bottom: 0px;
-    }
-    .table-keys{
-        font-size: 1rem;
-    }
-    .table-values{
-        font-size: 1rem;
     }
 
     /* resume page */
@@ -901,7 +876,7 @@ body{
     }
     .project-container{
         width: 55%;
-        height: 47vh;
+        height: fit-content;
         margin-right: 25px;
     }
     .project-container:hover{
@@ -1091,27 +1066,15 @@ body{
         margin-top: 27px;
     }
     #hire-me-button{
-        padding: 15px 29px;
-        border-radius: 24px;
+        padding: 14px 29px;
+        border-radius: 30px;
         font-size: 0.9rem;
-        cursor: pointer;
-    }
-    #hire-me-button:hover{
-        background-color: white;
-        border: 1.5px solid #343434;
-        color: #343434;
-        transition: 0.8s;
     }
     #my-works-button{
-        padding: 15px 26px;
-        border-radius: 24px;
+        padding: 14px 23px;
+        border-radius: 30px;
         font-size: 0.9rem;
-        cursor: pointer;
-    }
-    #my-works-button:hover{
-        background-color: #343434;
-        color: white;
-        transition: 0.8s;
+        border: 2px solid #343434;
     }
 
     /* about page style for Desktop*/
@@ -1253,7 +1216,7 @@ body{
     }
     .project-container{
         width: 28%;
-        height: 48vh;
+        height: fit-content;
         margin-right: 25px;
     }
     .project-container:hover{
@@ -1432,27 +1395,15 @@ body{
         margin-top: 27px;
     }
     #hire-me-button{
-        padding: 15px 29px;
-        border-radius: 24px;
+        padding: 14px 29px;
+        border-radius: 30px;
         font-size: 0.9rem;
-        cursor: pointer;
-    }
-    #hire-me-button:hover{
-        background-color: white;
-        border: 1.5px solid #343434;
-        color: #343434;
-        transition: 0.8s;
     }
     #my-works-button{
-        padding: 15px 26px;
-        border-radius: 24px;
+        padding: 14px 23px;
+        border-radius: 30px;
         font-size: 0.9rem;
-        cursor: pointer;
-    }
-    #my-works-button:hover{
-        background-color: #343434;
-        color: white;
-        transition: 0.8s;
+        border: 2px solid #343434;
     }
 
     /* about page style for Desktop*/
@@ -1594,7 +1545,7 @@ body{
     }
     .project-container{
         width: 28%;
-        height: 48vh;
+        height: fit-content;
         margin-right: 25px;
     }
     .project-container:hover{
