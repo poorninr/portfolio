@@ -5,6 +5,7 @@
 }
 body{
     font-family: "Poppins", sans-serif;
+    background-color: #343434;
 }
 
 .nav-bar-container{
@@ -97,12 +98,10 @@ body{
     display: none;
 }
 #body-main-container{
-    margin-top: 90px;
-    margin-bottom: 40px;
+    background-color: white;
+    padding: 90px 0px 90px 0px;
 }
-#about-page-link{
-    margin-bottom: 70px;
-}
+
 .profile-img-container{
     display: flex;
     justify-content: center;
@@ -122,11 +121,12 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 35px 0px 45px 0px;
+    margin-top: 35px;
     align-items: center;
 }
 #body-greeting{
     text-transform:uppercase;
+
 }
 #body-name-container{
     font-size: 2rem;
@@ -192,12 +192,11 @@ body{
 
 /* about page style for mobile*/
 #about-page-container{
-    background-color: #343434;
     color: white;
     padding: 25px;
 }
 #body-heading-container{
-    margin: 20px 0px 30px 0px;
+    margin: 0px 0px 30px 0px;
 }
 #body-heading{
     font-size: 1.7rem;
@@ -281,6 +280,9 @@ body{
     text-decoration: none;
     font-size: 0.9rem;
 }
+#about-email:hover{
+    color: white;
+}
 
 
 /* Resume Page */
@@ -317,14 +319,17 @@ body{
 }
 .education-main-container h4{
     color: #FF5733;
+    font-size: 0.85rem;
     margin-bottom: 5px;
 }
 .education-main-container h3{
     color: lightgrey;
+    font-size: 1.1rem;
     margin-bottom: 5px;
 }
 .education-main-container h5{
     color: lightgrey;
+    font-size: 0.82rem;
     margin-bottom: 10px;
 }
 .education-main-container p{
@@ -333,11 +338,8 @@ body{
 
 
 /* skill page */
-#skill-page-link{
-    margin-bottom: 30px;
-}
+
 .skill-page-container{
-    background-color: #343434;
     padding: 25px;
 }
 #skill-heading-container{
@@ -364,16 +366,18 @@ body{
 }
 .skill-sub-heading-container h4{
     color: lightgrey;
+    font-size: 0.9rem;
 }
 .skill-sub-heading-container p{
     color: white;
+    font-size: 0.9rem;
 }
 .skills{
     width: 92%;
 }
 .skills-container{
     width: 100%;
-    height: 8px;
+    height: 7px;
     background-color: #4b4a4a;
     border: none;
     border-radius: 20px;
@@ -384,7 +388,7 @@ body{
 }
 #html{
     width: 95%;
-    height: 8px;
+    height: 7px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -402,7 +406,7 @@ body{
 }
 #css{
     width: 90%;
-    height: 8px;
+    height: 7px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -420,7 +424,7 @@ body{
 }
 #sass{
     width: 90%;
-    height: 8px;
+    height: 7px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -438,7 +442,7 @@ body{
 }
 #js{
     width: 80%;
-    height: 8px;
+    height: 7px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -456,7 +460,7 @@ body{
 }
 #angular{
     width: 60%;
-    height: 8px;
+    height: 7px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -474,7 +478,7 @@ body{
 }
 #git-github{
     width: 80%;
-    height: 8px;
+    height: 7px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -492,7 +496,7 @@ body{
 }
 #web-development{
     width: 85%;
-    height: 8px;
+    height: 7px;
     border: none;
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
@@ -564,7 +568,7 @@ body{
 }
 .project-heading{
     margin:10px 0px 10px 0px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #FF5733;
 }
@@ -579,8 +583,8 @@ body{
 /* contact page design */
 
 .contact-page-container{
-    margin-bottom: 30px;
-    padding: 25px;
+    background-color: white;
+    padding: 50px;
 }
 #contact-heading-container{
     text-align: center;
@@ -653,7 +657,7 @@ body{
 }
 .footer-list-container ul li{
     list-style: none;
-    margin-right: 15px;
+    margin-right: 12px;
     font-size: 0.9rem;
 
 }
@@ -665,7 +669,7 @@ body{
     color: brown;
 }
 .footer-para-container p{
-    font-size: 0.8rem;
+    font-size: 0.68rem;
     margin-bottom: 10px;
 }
 .copy-right-container h6{
@@ -797,7 +801,7 @@ body{
     }
     
     /* about page style for tablet*/
-    #about-page-container{
+    /* #about-page-container{
         padding: 60px;
     }
     #body-heading-container{
@@ -818,7 +822,7 @@ body{
     }
     .table-values{
         font-size: 1rem;
-    }
+    } */
     /* resume page */
     #resume-page-link{
         margin-bottom: 0px;
@@ -868,8 +872,46 @@ body{
         flex-direction: column;
         align-items: center;
     }
+    .skill-sub-heading-container h4{
+        font-size: 1rem;
+    }
+    .skill-sub-heading-container p{
+        font-size: 1rem;
+    }
     .skills{
         width: 68%;
+    }
+    .skills-container{
+        width: 100%;
+        height: 8px;
+    }
+    #html{
+        width: 95%;
+        height: 8px;
+    }
+    #css{
+        width: 90%;
+        height: 8px;
+    }
+    #sass{
+        width: 90%;
+        height: 8px;
+    }
+    #js{
+        width: 80%;
+        height: 8px;
+    }
+    #angular{
+        width: 60%;
+        height: 8px;
+    }
+    #git-github{
+        width: 80%;
+        height: 8px;
+    }
+    #web-development{
+        width: 85%;
+        height: 8px;
     }
     #web-container{
         margin-bottom: 0px;
