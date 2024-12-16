@@ -191,7 +191,7 @@ body{
 
 
 /* about page style for mobile*/
-#about-page-container2{
+#about-page-container3{
     display: none;
 }
 #about-page-container{
@@ -802,42 +802,42 @@ body{
     #about-page-container{
         display: none;
     }
-    #about-page-container2{
+    #about-page-container3{
+        display: block;
         padding: 60px;
     }
-    #about-heading{
+    #about-heading3{
         font-size: 2rem;
         text-align: center;
         margin-bottom: 40px;
         color: white;
     }
-    #about-heading span{
+    #about-heading3 span{
         color: #FF5733;
     }
-    #about-tablet-para-container{
+    #about-tablet-para-container3{
         margin-bottom: 25px;
     }
-    #about-tablet-para-container p{
-        display: block;
+    #about-tablet-para-container3 p{
         text-align:start;
         line-height: 2.1rem;
         word-spacing: 0.5rem;
         color: lightgrey;
         margin-bottom: 25px;
     }
-    #body-table2{
+    #body-table3{
         width: 100%;
         border-spacing: 7px 25px;
         margin-bottom: 10px;
     }
-    .table-keys2{
+    .table-keys3{
         color: white;
         font-weight: 600;
     }
-    .table-values2{
+    .table-values3{
         color: lightgrey;
     }
-    .table-values2 a{
+    .table-values3 a{
         color: lightgrey;
         text-decoration: none;
     }
