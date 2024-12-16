@@ -803,7 +803,7 @@ body{
         display: none;
     }
     #about-page-container3{
-        display: none;
+        display: block;
         padding: 60px;
     }
     #about-heading3{
@@ -819,6 +819,7 @@ body{
         margin-bottom: 25px;
     }
     #about-tablet-para-container3 p{
+        font-size: 0.9rem;
         text-align:start;
         line-height: 2.1rem;
         word-spacing: 0.5rem;
@@ -831,13 +832,16 @@ body{
         margin-bottom: 10px;
     }
     .table-keys3{
+        font-size: 0.9rem;
         color: white;
         font-weight: 600;
     }
     .table-values3{
+        font-size: 0.9rem;
         color: lightgrey;
     }
     .table-values3 a{
+        
         color: lightgrey;
         text-decoration: none;
     }
