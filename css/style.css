@@ -890,6 +890,12 @@ body{
         color: lightgrey;
         text-decoration: none;
     }
+    #para1-container{
+        display: none;
+    }
+    #para3-container{
+        display: none;
+    }
     /* #about-page-container{
         padding: 60px;
     }
@@ -1286,6 +1292,12 @@ body{
     .table-values{
         font-size: 1rem;
     }
+    #para1-container{
+        display: none;
+    }
+    #para3-container{
+        display: none;
+    }
 
     /* resume page  */
     .resume-page-container{
@@ -1619,6 +1631,12 @@ body{
     }
     .table-values{
         font-size: 1rem;
+    }
+    #para1-container{
+        display: none;
+    }
+    #para3-container{
+        display: none;
     }
 
     /* resume page  */
